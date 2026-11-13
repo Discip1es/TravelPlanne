@@ -3,7 +3,7 @@
 
 # 🧭 TravelPlanner
 
-[![ci](https://github.com/Discip1es/TravelPlanne/actions/workflows/ci.yml/badge.svg)](https://github.com/Discip1es/TravelPlanne/actions/workflows/ci.yml)
+[![ci](https://github.com/Discip1es/TravelPlanne/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/Discip1es/TravelPlanne/actions/workflows/ci.yml)
 
 **Планировщик путешествий**: поездки, программа по дням, бюджет и бронирования, сводная аналитика, уведомления в реальном времени.
 
