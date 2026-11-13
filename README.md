@@ -3,6 +3,8 @@
 
 # 🧭 TravelPlanner
 
+[![ci](https://github.com/Discip1es/TravelPlanne/actions/workflows/ci.yml/badge.svg)](https://github.com/Discip1es/TravelPlanne/actions/workflows/ci.yml)
+
 **Планировщик путешествий**: поездки, программа по дням, бюджет и бронирования, сводная аналитика, уведомления в реальном времени.
 
 Учебно-производственный проект полного цикла: **ASP.NET Core 10 (LTS) + EF Core 10 + SQLite + SignalR** на сервере и **React 19 + TypeScript + Vite 7** на клиенте. Приложение запускается без внешней инфраструктуры (одна команда — и БД создаётся и наполняется сама), собирается в один Docker-образ и обслуживает API и SPA с одного адреса.
