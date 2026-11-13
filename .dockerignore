@@ -1,0 +1,10 @@
+**/bin/
+**/obj/
+**/node_modules/
+**/App_Data/*.db*
+src/TravelPlanner.Api/wwwroot/
+publish/
+frontend/dist/
+.git/
+.vs/
+.idea/

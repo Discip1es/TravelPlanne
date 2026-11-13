@@ -1,0 +1,20 @@
+services:
+  web:
+    build: .
+    container_name: travelplanner
+    ports:
+      - "8080:8080"
+    environment:
+      ASPNETCORE_ENVIRONMENT: Production
+      ASPNETCORE_URLS: http://+:8080
+      ConnectionStrings__Default: "Data Source=/app/App_Data/travelplanner.db"
+      # ОБЯЗАТЕЛЬНО замените значение на собственный секрет (>= 32 символов)
+      Jwt__SigningKey: "replace-this-with-a-long-random-production-secret-key-123456"
+      Jwt__AccessTokenMinutes: "15"
+      Jwt__RefreshTokenDays: "14"
+    volumes:
+      - travel-data:/app/App_Data
+    restart: unless-stopped
+
+volumes:
+  travel-data:
