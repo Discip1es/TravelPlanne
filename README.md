@@ -1,7 +1,7 @@
 
 ---
 
-# 🧭 TravelPlanner
+# TravelPlanner
 
 [![ci](https://github.com/Discip1es/TravelPlanne/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/Discip1es/TravelPlanne/actions/workflows/ci.yml)
 

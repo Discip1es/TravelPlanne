@@ -1,7 +1,7 @@
 namespace TravelPlanner.Api.OpenApi;
 
 /// <summary>
-/// Swagger UI подключается с CDN, поэтому额外的 NuGet-пакет не нужен:
+/// Swagger UI подключается с CDN, поэтому NuGet-пакет не нужен:
 /// документ формирует встроенный Microsoft.AspNetCore.OpenApi (/openapi/v1.json).
 /// </summary>
 public static class SwaggerUiPage
